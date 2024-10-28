@@ -19,7 +19,7 @@ Make sure you have a modern web browser to view the website.
 
 Installation
 1.Clone the repository:
-git clone https://github.com/your-username/ecommerce-website.git
+git clone https://github.com/codeaisha/Ecom-Bellavita.git
 
 2.Navigate to the project directory:
 cd ecommerce-website
