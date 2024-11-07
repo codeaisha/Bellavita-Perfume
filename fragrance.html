@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrance of Bella Vita</title>
+    <link rel="icon" type="image/icon" href="mini_project_images/ravelry.jpg">
+    <style>
+        /* Style for the page background */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0 20px;
+        }
+        /* Style for the heading */
+        h1 {
+            text-align: center;
+            color: #6a1b9a;
+            margin-top: 30px;
+        }
+        /* Style for paragraphs */
+        .description {
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: justify;
+            font-size: 1.1em;
+            color: #444;
+        }
+        /* Highlighted text for emphasis */
+        .highlight {
+            color: #6a1b9a;
+            font-weight: bold;
+        }
+        /* Button style */
+        .btn-toggle {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+        }
+        /* Hidden details */
+        .more-info {
+            display: none;
+            font-size: 1.1em;
+            color: #333;
+            text-align: justify;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>The Exquisite Fragrance of Bella Vita</h1>
+
+    <div class="description">
+        <p>Bella Vita's fragrance is a masterpiece of carefully selected aromas, bringing a sense of <span class="highlight">elegance</span> and <span class="highlight">sophistication</span> to any moment. Its scent profile unfolds with <span class="highlight">citrus notes</span> that energize the senses, while a touch of <span class="highlight">spiced florals</span> adds depth and allure.</p>
+
+        <p>As the fragrance develops, its heart reveals hints of <span class="highlight">jasmine and rose</span>, creating a harmonious blend of floral scents that captivates the spirit. The woody base notes provide a warm, lingering finish that gently envelops the wearer, leaving a subtle yet unforgettable impression.</p>
+
+        <p>Perfect for both day and night, Bella Vita is an enchanting choice for those who seek to express their inner charm and sophistication through the art of fragrance. Its unique composition makes it <span class="highlight">timeless</span>, effortlessly enhancing any style with a touch of natural beauty.</p>
+        
+        <!-- Button to show more details -->
+        <button class="btn-toggle" onclick="toggleMoreInfo()">Learn More</button>
+
+        <!-- Additional details hidden initially -->
+        <div id="more-info" class="more-info">
+            <p>Bella Vita's fragrance is crafted using a blend of natural oils and botanical extracts, ensuring that it is gentle on the skin and has a long-lasting effect. The fragrance evolves over time, giving a fresh and dynamic experience. It is a perfect blend of modernity and tradition, offering a balanced yet bold aroma.</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript function to toggle the visibility of additional information
+        function toggleMoreInfo() {
+            var moreInfo = document.getElementById("more-info");
+            if (moreInfo.style.display === "none" || moreInfo.style.display === "") {
+                moreInfo.style.display = "block";
+            } else {
+                moreInfo.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
